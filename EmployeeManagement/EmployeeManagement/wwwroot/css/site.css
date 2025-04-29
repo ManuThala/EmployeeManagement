@@ -1,0 +1,155 @@
+body {
+    background: #f0f2f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    max-width: 700px;
+    width: 100%;
+    padding: 16px 24px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+
+
+.form-title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 26px;
+}
+
+.form-card {
+    padding: 20px;
+    background: #fafafa;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+    .form-group label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+        color: #555;
+    }
+
+    .form-group input[type="text"],
+    .form-group input[type="date"],
+    .form-group input[type="number"],
+    .form-group select {
+        width: 100%;
+        padding: 8px 12px;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        font-size: 15px;
+    }
+
+.gender-options label {
+    margin-right: 15px;
+}
+
+.form-buttons {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.btn-save, .btn-clear, .btn-download, .btn-chart, .btn-delete {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn-save {
+    background-color: #28a745;
+    color: white;
+}
+
+    .btn-save:hover {
+        background-color: #218838;
+    }
+
+.btn-clear {
+    background-color: #ffc107;
+    color: white;
+}
+
+    .btn-clear:hover {
+        background-color: #e0a800;
+    }
+
+.btn-delete {
+    background-color: #dc3545;
+    color: white;
+    font-size: 14px;
+    padding: 5px 12px;
+}
+
+    .btn-delete:hover {
+        background-color: #c82333;
+    }
+
+.btn-download {
+    background-color: #007bff;
+    color: white;
+}
+
+    .btn-download:hover {
+        background-color: #0069d9;
+    }
+
+.btn-chart {
+    background-color: #6f42c1;
+    color: white;
+}
+
+    .btn-chart:hover {
+        background-color: #5936a2;
+    }
+
+.table-wrapper {
+    overflow-x: auto;
+}
+
+table.display {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+    table.display th, table.display td {
+        border: 1px solid #ddd;
+        padding: 10px;
+        text-align: center;
+    }
+
+    table.display th {
+        background-color: #f8f9fa;
+        color: #333;
+    }
+
+.salary-summary {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.age-label {
+    padding: 8px;
+    background: #e9ecef;
+    border-radius: 6px;
+    display: inline-block;
+    width: 100%;
+}
+
+
+

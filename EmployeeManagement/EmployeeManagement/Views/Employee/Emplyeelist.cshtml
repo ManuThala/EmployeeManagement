@@ -1,0 +1,148 @@
+﻿@model List<EmployeeManagement.Models.EmployeeModel>
+
+@{
+    Layout = "_Layout";
+}
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+                   $('#employeeTable').DataTable({
+                paging: true,
+                searching: true,
+                ordering: true,
+                dom: 'Bfrtip', // adds buttons
+                buttons: [
+                    {
+                        extend: 'pdfHtml5',
+                        text: 'Download PDF',
+                        title: 'Employee List',
+                        exportOptions: {
+                            columns: ':not(:first-child):not(:last-child)' // exclude checkbox & action columns
+                        },
+                        customize: function (doc) {
+                            doc.styles.tableHeader.fillColor = '#007bff'; // blue header
+                        }
+                    }
+                ],
+                columnDefs: [
+                    { orderable: false, targets: [0, 7] }
+                ]
+            });
+
+
+            $('#selectAll').on('change', function () {
+                $('.record-checkbox').prop('checked', this.checked);
+                calculateTotal();
+            });
+
+            $('.record-checkbox').on('change', function () {
+                calculateTotal();
+            });
+
+            function calculateTotal() {
+                let total = 0;
+                $('.record-checkbox:checked').each(function () {
+                    let salary = parseFloat($(this).data('salary'));
+                    if (!isNaN(salary)) {
+                        total += salary;
+                    }
+                });
+                $('#totalSalary').text(total.toFixed(2));
+            }
+
+            $('#dob').on('change', function () {
+                var dob = new Date($(this).val());
+                var today = new Date();
+                var age = today.getFullYear() - dob.getFullYear();
+                var m = today.getMonth() - dob.getMonth();
+                if (m < 0 || (m === 0 && today.getDate() < dob.getDate())) {
+                    age--;
+                }
+                $('#ageLabel').text(age);
+            });
+
+
+        });
+            async function downloadEmployeeTableAsPDF() {
+                const { jsPDF } = window.jspdf;
+                const doc = new jsPDF();
+
+                var table = document.getElementById("employeeTable");
+                var rows = table.querySelectorAll("tr");
+
+                let y = 10; // Starting Y position
+
+                for (var i = 0; i < rows.length; i++) {
+                    var cols = rows[i].querySelectorAll("th, td");
+                    let rowText = "";
+
+                    for (var j = 0; j < cols.length; j++) {
+                        if (j === 0 || j === cols.length - 1) continue; // Skip first and last column
+                        rowText += cols[j].innerText.replace(/(\r\n|\n|\r)/gm, "").trim() + "   ";
+                    }
+
+                    doc.text(rowText, 10, y);
+                    y += 10; // Move down for the next row
+                }
+
+                doc.save("employee_list.pdf");
+            }
+
+    </script>
+}
+
+<form id="employeeListForm" class="container mt-4">
+    <div class="table-responsive">
+        <table id="employeeTable" class="table table-striped table-bordered w-100">
+            <thead style="background-color: #007bff; color: white;">
+                <tr>
+                    <th><input type="checkbox" id="selectAll" /></th>
+                    <th>Name</th>
+                    <th>Designation</th>
+                    <th>DOJ</th>
+                    <th>Salary</th>
+                    <th>Gender</th>
+                    <th>State</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var emp in Model)
+                {
+                    <tr>
+                        <td><input type="checkbox" class="record-checkbox" data-salary="@emp.Salary" /></td>
+                        <td>
+                            <a asp-action="Updateform" asp-controller="Employee" asp-route-Id="@emp.Id">@emp.Name</a>
+                        </td>
+
+                        <td>@emp.Designation</td>
+                        <td>@emp.DateOfJoin.ToShortDateString()</td>
+                        <td class="salary">@emp.Salary</td>
+                        <td>@emp.Gender</td>
+                        <td>@emp.State</td>
+                        <td>
+                            <form method="post" action="/Employee/Delete" onsubmit="return confirm('Are you sure you want to delete this employee?');">
+                                <input type="hidden" name="id" value="@emp.Id" />
+                                <input type="submit" value="Delete" class="btn btn-danger btn-sm" />
+                            </form>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+        <div style="margin-top: 10px;">
+            <strong>Total Salary of Selected Employees: ₹<span id="totalSalary">0.00</span></strong>
+        </div>
+
+        <a href="/Employee/Chart">
+            <button type="button" class="btn btn-primary">View Chart</button>
+        </a>
+
+    </div>
+</form>
+
+
+
+
+

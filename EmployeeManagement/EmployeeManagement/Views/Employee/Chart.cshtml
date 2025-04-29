@@ -1,0 +1,61 @@
+﻿@model List<EmployeeManagement.Models.EmployeeModel>
+
+@{
+    Layout = "_Layout";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Salary Chart</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h2>Designation-wise Salary Chart</h2>
+        <canvas id="designationChart" width="400" height="300"></canvas>
+        <a href="/Employee/Index">← Back to Employee List</a>
+    </div>
+
+    <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                const salaryMap = {};
+
+        @foreach (var emp in Model)
+        {
+            var designation = emp.Designation.Replace("\"", "\\\""); // escape quotes
+            <text>
+            salaryMap["@designation"] = (salaryMap["@designation"] || 0) + @emp.Salary;
+            </text>
+        }
+
+                const labels = Object.keys(salaryMap);
+                const data = Object.values(salaryMap);
+
+                const ctx = document.getElementById('designationChart').getContext('2d');
+                new Chart(ctx, {
+                    type: 'bar',
+                    data: {
+                        labels: labels,
+                        datasets: [{
+                            label: 'Total Salary',
+                            data: data,
+                            backgroundColor: 'rgba(54, 162, 235, 0.5)',
+                            borderColor: 'rgba(54, 162, 235, 1)',
+                            borderWidth: 1
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        scales: {
+                            y: {
+                                beginAtZero: true
+                            }
+                        }
+                    }
+                });
+            });
+    </script>
+
+</body>
+</html>

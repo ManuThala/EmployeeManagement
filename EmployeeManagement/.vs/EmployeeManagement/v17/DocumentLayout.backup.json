@@ -1,0 +1,333 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Deepa\\Employeeesolution\\EmployeeManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E89F50C0-2E8F-4842-AB89-AF1CB82C46C8}|EmployeeManagement\\EmployeeManagement.csproj|c:\\deepa\\employeeesolution\\employeemanagement\\employeemanagement\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E89F50C0-2E8F-4842-AB89-AF1CB82C46C8}|EmployeeManagement\\EmployeeManagement.csproj|solutionrelative:employeemanagement\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E89F50C0-2E8F-4842-AB89-AF1CB82C46C8}|EmployeeManagement\\EmployeeManagement.csproj|c:\\deepa\\employeeesolution\\employeemanagement\\employeemanagement\\helper\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E89F50C0-2E8F-4842-AB89-AF1CB82C46C8}|EmployeeManagement\\EmployeeManagement.csproj|solutionrelative:employeemanagement\\helper\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E89F50C0-2E8F-4842-AB89-AF1CB82C46C8}|EmployeeManagement\\EmployeeManagement.csproj|c:\\deepa\\employeeesolution\\employeemanagement\\employeemanagement\\views\\employee\\emplyeelist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E89F50C0-2E8F-4842-AB89-AF1CB82C46C8}|EmployeeManagement\\EmployeeManagement.csproj|solutionrelative:employeemanagement\\views\\employee\\emplyeelist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E89F50C0-2E8F-4842-AB89-AF1CB82C46C8}|EmployeeManagement\\EmployeeManagement.csproj|c:\\deepa\\employeeesolution\\employeemanagement\\employeemanagement\\models\\employeemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E89F50C0-2E8F-4842-AB89-AF1CB82C46C8}|EmployeeManagement\\EmployeeManagement.csproj|solutionrelative:employeemanagement\\models\\employeemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E89F50C0-2E8F-4842-AB89-AF1CB82C46C8}|EmployeeManagement\\EmployeeManagement.csproj|c:\\deepa\\employeeesolution\\employeemanagement\\employeemanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E89F50C0-2E8F-4842-AB89-AF1CB82C46C8}|EmployeeManagement\\EmployeeManagement.csproj|solutionrelative:employeemanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E89F50C0-2E8F-4842-AB89-AF1CB82C46C8}|EmployeeManagement\\EmployeeManagement.csproj|c:\\deepa\\employeeesolution\\employeemanagement\\employeemanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E89F50C0-2E8F-4842-AB89-AF1CB82C46C8}|EmployeeManagement\\EmployeeManagement.csproj|solutionrelative:employeemanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E89F50C0-2E8F-4842-AB89-AF1CB82C46C8}|EmployeeManagement\\EmployeeManagement.csproj|c:\\deepa\\employeeesolution\\employeemanagement\\employeemanagement\\views\\employee\\chart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E89F50C0-2E8F-4842-AB89-AF1CB82C46C8}|EmployeeManagement\\EmployeeManagement.csproj|solutionrelative:employeemanagement\\views\\employee\\chart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E89F50C0-2E8F-4842-AB89-AF1CB82C46C8}|EmployeeManagement\\EmployeeManagement.csproj|c:\\deepa\\employeeesolution\\employeemanagement\\employeemanagement\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E89F50C0-2E8F-4842-AB89-AF1CB82C46C8}|EmployeeManagement\\EmployeeManagement.csproj|solutionrelative:employeemanagement\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E89F50C0-2E8F-4842-AB89-AF1CB82C46C8}|EmployeeManagement\\EmployeeManagement.csproj|c:\\deepa\\employeeesolution\\employeemanagement\\employeemanagement\\views\\employee\\report.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E89F50C0-2E8F-4842-AB89-AF1CB82C46C8}|EmployeeManagement\\EmployeeManagement.csproj|solutionrelative:employeemanagement\\views\\employee\\report.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E89F50C0-2E8F-4842-AB89-AF1CB82C46C8}|EmployeeManagement\\EmployeeManagement.csproj|c:\\deepa\\employeeesolution\\employeemanagement\\employeemanagement\\views\\employee\\updateform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E89F50C0-2E8F-4842-AB89-AF1CB82C46C8}|EmployeeManagement\\EmployeeManagement.csproj|solutionrelative:employeemanagement\\views\\employee\\updateform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E89F50C0-2E8F-4842-AB89-AF1CB82C46C8}|EmployeeManagement\\EmployeeManagement.csproj|c:\\deepa\\employeeesolution\\employeemanagement\\employeemanagement\\employeemanagement.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E89F50C0-2E8F-4842-AB89-AF1CB82C46C8}|EmployeeManagement\\EmployeeManagement.csproj|solutionrelative:employeemanagement\\employeemanagement.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E89F50C0-2E8F-4842-AB89-AF1CB82C46C8}|EmployeeManagement\\EmployeeManagement.csproj|c:\\deepa\\employeeesolution\\employeemanagement\\employeemanagement\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E89F50C0-2E8F-4842-AB89-AF1CB82C46C8}|EmployeeManagement\\EmployeeManagement.csproj|solutionrelative:employeemanagement\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E89F50C0-2E8F-4842-AB89-AF1CB82C46C8}|EmployeeManagement\\EmployeeManagement.csproj|c:\\deepa\\employeeesolution\\employeemanagement\\employeemanagement\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E89F50C0-2E8F-4842-AB89-AF1CB82C46C8}|EmployeeManagement\\EmployeeManagement.csproj|solutionrelative:employeemanagement\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E89F50C0-2E8F-4842-AB89-AF1CB82C46C8}|EmployeeManagement\\EmployeeManagement.csproj|c:\\deepa\\employeeesolution\\employeemanagement\\employeemanagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E89F50C0-2E8F-4842-AB89-AF1CB82C46C8}|EmployeeManagement\\EmployeeManagement.csproj|solutionrelative:employeemanagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E89F50C0-2E8F-4842-AB89-AF1CB82C46C8}|EmployeeManagement\\EmployeeManagement.csproj|c:\\deepa\\employeeesolution\\employeemanagement\\employeemanagement\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E89F50C0-2E8F-4842-AB89-AF1CB82C46C8}|EmployeeManagement\\EmployeeManagement.csproj|solutionrelative:employeemanagement\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E89F50C0-2E8F-4842-AB89-AF1CB82C46C8}|EmployeeManagement\\EmployeeManagement.csproj|c:\\deepa\\employeeesolution\\employeemanagement\\employeemanagement\\wwwroot\\lib\\jquery\\dist\\jquery.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E89F50C0-2E8F-4842-AB89-AF1CB82C46C8}|EmployeeManagement\\EmployeeManagement.csproj|solutionrelative:employeemanagement\\wwwroot\\lib\\jquery\\dist\\jquery.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E89F50C0-2E8F-4842-AB89-AF1CB82C46C8}|EmployeeManagement\\EmployeeManagement.csproj|c:\\deepa\\employeeesolution\\employeemanagement\\employeemanagement\\reports\\employeereport.rdlc||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{E89F50C0-2E8F-4842-AB89-AF1CB82C46C8}|EmployeeManagement\\EmployeeManagement.csproj|solutionrelative:employeemanagement\\reports\\employeereport.rdlc||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E89F50C0-2E8F-4842-AB89-AF1CB82C46C8}|EmployeeManagement\\EmployeeManagement.csproj|c:\\deepa\\employeeesolution\\employeemanagement\\employeemanagement\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E89F50C0-2E8F-4842-AB89-AF1CB82C46C8}|EmployeeManagement\\EmployeeManagement.csproj|solutionrelative:employeemanagement\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E89F50C0-2E8F-4842-AB89-AF1CB82C46C8}|EmployeeManagement\\EmployeeManagement.csproj|c:\\deepa\\employeeesolution\\employeemanagement\\employeemanagement\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E89F50C0-2E8F-4842-AB89-AF1CB82C46C8}|EmployeeManagement\\EmployeeManagement.csproj|solutionrelative:employeemanagement\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Deepa\\Employeeesolution\\EmployeeManagement\\EmployeeManagement\\Views\\Employee\\Index.cshtml",
+              "RelativeDocumentMoniker": "EmployeeManagement\\Views\\Employee\\Index.cshtml",
+              "ToolTip": "C:\\Deepa\\Employeeesolution\\EmployeeManagement\\EmployeeManagement\\Views\\Employee\\Index.cshtml",
+              "RelativeToolTip": "EmployeeManagement\\Views\\Employee\\Index.cshtml",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAIwIgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-24T16:41:01.781Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Deepa\\Employeeesolution\\EmployeeManagement\\EmployeeManagement\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Deepa\\Employeeesolution\\EmployeeManagement\\EmployeeManagement\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "EmployeeManagement\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAiwBgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T16:43:18.948Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmployeeModel.cs",
+              "DocumentMoniker": "C:\\Deepa\\Employeeesolution\\EmployeeManagement\\EmployeeManagement\\Models\\EmployeeModel.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement\\Models\\EmployeeModel.cs",
+              "ToolTip": "C:\\Deepa\\Employeeesolution\\EmployeeManagement\\EmployeeManagement\\Models\\EmployeeModel.cs",
+              "RelativeToolTip": "EmployeeManagement\\Models\\EmployeeModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T16:48:09.121Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "C:\\Deepa\\Employeeesolution\\EmployeeManagement\\EmployeeManagement\\Helper\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement\\Helper\\EmployeeService.cs",
+              "ToolTip": "C:\\Deepa\\Employeeesolution\\EmployeeManagement\\EmployeeManagement\\Helper\\EmployeeService.cs",
+              "RelativeToolTip": "EmployeeManagement\\Helper\\EmployeeService.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAEwDUAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T17:58:48.691Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Emplyeelist.cshtml",
+              "DocumentMoniker": "C:\\Deepa\\Employeeesolution\\EmployeeManagement\\EmployeeManagement\\Views\\Employee\\Emplyeelist.cshtml",
+              "RelativeDocumentMoniker": "EmployeeManagement\\Views\\Employee\\Emplyeelist.cshtml",
+              "ToolTip": "C:\\Deepa\\Employeeesolution\\EmployeeManagement\\EmployeeManagement\\Views\\Employee\\Emplyeelist.cshtml",
+              "RelativeToolTip": "EmployeeManagement\\Views\\Employee\\Emplyeelist.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-25T16:52:22.628Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Deepa\\Employeeesolution\\EmployeeManagement\\EmployeeManagement\\appsettings.json",
+              "RelativeDocumentMoniker": "EmployeeManagement\\appsettings.json",
+              "ToolTip": "C:\\Deepa\\Employeeesolution\\EmployeeManagement\\EmployeeManagement\\appsettings.json",
+              "RelativeToolTip": "EmployeeManagement\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-24T17:41:42.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Deepa\\Employeeesolution\\EmployeeManagement\\EmployeeManagement\\Program.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement\\Program.cs",
+              "ToolTip": "C:\\Deepa\\Employeeesolution\\EmployeeManagement\\EmployeeManagement\\Program.cs",
+              "RelativeToolTip": "EmployeeManagement\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T16:51:04.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Chart.cshtml",
+              "DocumentMoniker": "C:\\Deepa\\Employeeesolution\\EmployeeManagement\\EmployeeManagement\\Views\\Employee\\Chart.cshtml",
+              "RelativeDocumentMoniker": "EmployeeManagement\\Views\\Employee\\Chart.cshtml",
+              "ToolTip": "C:\\Deepa\\Employeeesolution\\EmployeeManagement\\EmployeeManagement\\Views\\Employee\\Chart.cshtml",
+              "RelativeToolTip": "EmployeeManagement\\Views\\Employee\\Chart.cshtml",
+              "ViewState": "AgIAACMAAAAAAAAAAAAIwD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-25T01:17:14.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Report.cshtml",
+              "DocumentMoniker": "C:\\Deepa\\Employeeesolution\\EmployeeManagement\\EmployeeManagement\\Views\\Employee\\Report.cshtml",
+              "RelativeDocumentMoniker": "EmployeeManagement\\Views\\Employee\\Report.cshtml",
+              "ToolTip": "C:\\Deepa\\Employeeesolution\\EmployeeManagement\\EmployeeManagement\\Views\\Employee\\Report.cshtml",
+              "RelativeToolTip": "EmployeeManagement\\Views\\Employee\\Report.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAkwAQAAABxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-25T01:29:31.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Updateform.cshtml",
+              "DocumentMoniker": "C:\\Deepa\\Employeeesolution\\EmployeeManagement\\EmployeeManagement\\Views\\Employee\\Updateform.cshtml",
+              "RelativeDocumentMoniker": "EmployeeManagement\\Views\\Employee\\Updateform.cshtml",
+              "ToolTip": "C:\\Deepa\\Employeeesolution\\EmployeeManagement\\EmployeeManagement\\Views\\Employee\\Updateform.cshtml",
+              "RelativeToolTip": "EmployeeManagement\\Views\\Employee\\Updateform.cshtml",
+              "ViewState": "AgIAADwAAAAAAAAAAAAIwEcAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-26T06:13:19.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EmployeeManagement.csproj",
+              "DocumentMoniker": "C:\\Deepa\\Employeeesolution\\EmployeeManagement\\EmployeeManagement\\EmployeeManagement.csproj",
+              "RelativeDocumentMoniker": "EmployeeManagement\\EmployeeManagement.csproj",
+              "ToolTip": "C:\\Deepa\\Employeeesolution\\EmployeeManagement\\EmployeeManagement\\EmployeeManagement.csproj",
+              "RelativeToolTip": "EmployeeManagement\\EmployeeManagement.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-28T18:09:07.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Deepa\\Employeeesolution\\EmployeeManagement\\EmployeeManagement\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "EmployeeManagement\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Deepa\\Employeeesolution\\EmployeeManagement\\EmployeeManagement\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "EmployeeManagement\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-24T19:01:30.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Deepa\\Employeeesolution\\EmployeeManagement\\EmployeeManagement\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "EmployeeManagement\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Deepa\\Employeeesolution\\EmployeeManagement\\EmployeeManagement\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "EmployeeManagement\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-24T20:17:30.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "bootstrap-reboot.css",
+              "DocumentMoniker": "C:\\Deepa\\Employeeesolution\\EmployeeManagement\\EmployeeManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+              "RelativeDocumentMoniker": "EmployeeManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+              "ToolTip": "C:\\Deepa\\Employeeesolution\\EmployeeManagement\\EmployeeManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+              "RelativeToolTip": "EmployeeManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-25T17:37:59.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Deepa\\Employeeesolution\\EmployeeManagement\\EmployeeManagement\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "EmployeeManagement\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Deepa\\Employeeesolution\\EmployeeManagement\\EmployeeManagement\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "EmployeeManagement\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAD1mgEAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-04-24T19:02:51.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "jquery.js",
+              "DocumentMoniker": "C:\\Deepa\\Employeeesolution\\EmployeeManagement\\EmployeeManagement\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+              "RelativeDocumentMoniker": "EmployeeManagement\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+              "ToolTip": "C:\\Deepa\\Employeeesolution\\EmployeeManagement\\EmployeeManagement\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+              "RelativeToolTip": "EmployeeManagement\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-04-25T16:38:08.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EmployeeReport.rdlc",
+              "DocumentMoniker": "C:\\Deepa\\Employeeesolution\\EmployeeManagement\\EmployeeManagement\\Reports\\EmployeeReport.rdlc",
+              "RelativeDocumentMoniker": "EmployeeManagement\\Reports\\EmployeeReport.rdlc",
+              "ToolTip": "C:\\Deepa\\Employeeesolution\\EmployeeManagement\\EmployeeManagement\\Reports\\EmployeeReport.rdlc",
+              "RelativeToolTip": "EmployeeManagement\\Reports\\EmployeeReport.rdlc",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001755|",
+              "WhenOpened": "2025-04-25T01:39:59.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Deepa\\Employeeesolution\\EmployeeManagement\\EmployeeManagement\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "EmployeeManagement\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Deepa\\Employeeesolution\\EmployeeManagement\\EmployeeManagement\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "EmployeeManagement\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-24T20:18:01.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Deepa\\Employeeesolution\\EmployeeManagement\\EmployeeManagement\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "EmployeeManagement\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Deepa\\Employeeesolution\\EmployeeManagement\\EmployeeManagement\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "EmployeeManagement\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-24T20:18:04.544Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

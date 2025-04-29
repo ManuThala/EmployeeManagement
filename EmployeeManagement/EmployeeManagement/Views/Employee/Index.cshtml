@@ -1,0 +1,136 @@
+﻿@{
+    Layout = "_Layout";
+}
+@model List<EmployeeManagement.Models.EmployeeModel>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $("#employeeForm").submit(function (event) {
+                event.preventDefault();
+                $(".error-message").text(""); // Clear errors
+                let isValid = true;
+
+                if ($("input[name='Name']").val().trim() === "") {
+                    $("#errorName").text("Name is required.");
+                    isValid = false;
+                }
+                if ($("input[name='Designation']").val().trim() === "") {
+                    $("#errorDesignation").text("Designation is required.");
+                    isValid = false;
+                }
+                if ($("input[name='DateOfJoin']").val() === "") {
+                    $("#errorDateOfJoin").text("Date of Join is required.");
+                    isValid = false;
+                }
+                if ($("#dob").val() === "") {
+                    $("#errorDOB").text("Date of Birth is required.");
+                    isValid = false;
+                }
+                if ($("input[name='Salary']").val().trim() === "") {
+                    $("#errorSalary").text("Salary is required.");
+                    isValid = false;
+                }
+                if ($("input[name='Gender']:checked").length === 0) {
+                    $("#errorGender").text("Gender is required.");
+                    isValid = false;
+                }
+                if ($("select[name='State']").val() === "") {
+                    $("#errorState").text("Please select a state.");
+                    isValid = false;
+                }
+
+                if (isValid) {
+                    this.submit();
+                }
+            });
+
+            $("#dob").change(function () {
+                let dob = $(this).val();
+                if (dob) {
+                    let dobDate = new Date(dob);
+                    let today = new Date();
+                    let age = today.getFullYear() - dobDate.getFullYear();
+                    let m = today.getMonth() - dobDate.getMonth();
+                    if (m < 0 || (m === 0 && today.getDate() < dobDate.getDate())) {
+                        age--;
+                    }
+                    $("#ageLabel").text("Age: " + age);
+                }
+            });
+        });
+    </script>
+}
+
+
+
+<div class="container">
+    <h2 class="form-title">Employee Form</h2>
+
+    <form id="employeeForm" method="post" action="/Employee/Save" class="form-card">
+        <input type="hidden" name="Id" value="" />
+
+        <div class="form-group">
+            <label>Name</label>
+            <input type="text" name="Name" class="form-control" />
+            <span class="error-message text-danger" id="errorName"></span>
+        </div>
+
+        <div class="form-group">
+            <label>Designation</label>
+            <input type="text" name="Designation" class="form-control" />
+            <span class="error-message text-danger" id="errorDesignation"></span>
+        </div>
+
+        <div class="form-group">
+            <label>Date of Join</label>
+            <input type="date" name="DateOfJoin" class="form-control" />
+            <span class="error-message text-danger" id="errorDateOfJoin"></span>
+        </div>
+
+        <div class="form-group">
+            <label>Date of Birth</label>
+            <input type="date" name="DOB" id="dob" class="form-control" />
+            <span class="error-message text-danger" id="errorDOB"></span>
+        </div>
+
+        <div class="form-group">
+            <label>Age</label>
+            <div id="ageLabel" class="age-label"></div>
+        </div>
+
+        <div class="form-group">
+            <label>Salary</label>
+            <input type="number" name="Salary" class="form-control" />
+            <span class="error-message text-danger" id="errorSalary"></span>
+        </div>
+
+        <div class="form-group">
+            <label>Gender</label>
+            <div class="gender-options">
+                <label><input type="radio" name="Gender" value="Male" /> Male</label>
+                <label><input type="radio" name="Gender" value="Female" /> Female</label>
+            </div>
+            <span class="error-message text-danger" id="errorGender"></span>
+        </div>
+
+        <div class="form-group">
+            <label>State</label>
+            <select name="State" class="form-select">
+                <option value="">Select</option>
+                @foreach (var item in Model)
+                {
+                    <option value="@item.State">@item.State</option>
+                }
+            </select>
+            <span class="error-message text-danger" id="errorState"></span>
+        </div>
+
+        <div class="form-buttons mt-3">
+            <button type="submit" class="btn btn-primary">Save</button>
+            <button type="reset" class="btn btn-primary">Clear</button>
+        </div>
+    </form>
+</div>
+
+
